@@ -2,7 +2,7 @@
 Graphical Dice Simulator
 
 ### Description
-Awesome dice simulator with image-handling in Tkinter. Play your favourite dice game using this simulator.
+An awesome dice simulator with image-handling in Tkinter. Play your favourite dice game using this simulator.
 
 ### Requirements
 * Python
