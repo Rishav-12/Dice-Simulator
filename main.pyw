@@ -12,7 +12,7 @@ pics = os.listdir("pics")
 
 def roll():
     c = random.choice(pics)
-    root.img = ImageTk.PhotoImage(Image.open(f"pics\\{c}"))
+    root.img = ImageTk.PhotoImage(Image.open(os.path.join("pics",c)))
     l.config(image = root.img)
 
 defaultImg = ImageTk.PhotoImage(Image.open("defaultDice.png"))
